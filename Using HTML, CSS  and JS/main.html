@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="heading">
+            <h3>Password Generator</h3>
+            <h6>Note : Lowercase characters are added by default</h6>
+        </div>
+        <div class="container">
+        <form>
+
+            <div class="result">
+                <textarea id="resultP" rows="1" cols="30"></textarea>
+            </div>
+            <div class="options">
+                <div class="lengthoption">
+                    <label>Length of Password: </label>
+                    <input type="number" id="lengthP" min="4" max="20" style="margin-left: 41px;">
+                </div>
+                <div class="UpperCase">
+                    Include Uppercase letters
+                    <input type="checkbox" id="UpperCase" checked style="margin-left: 60px;">
+                </div>
+                <div class="Numbers">
+                    Include Numbers
+                    <input type="checkbox" id="Numbers" checked style="margin-left: 112px;">
+                </div>
+                <div class="Symbols">
+                    Include Symbols
+                    <input type="checkbox" id="Symbols" checked style="margin-left: 114px;">
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="buttongtn">
+                    <button id="buttongn">Generate Button</button>
+                    <!-- </div>
+                    <div class="buttoncpy">
+                        <button id="buttoncpy">Copy Password</button>
+                    </div> -->
+                </div>
+        </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

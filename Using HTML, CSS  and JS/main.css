@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: linear-gradient(red, orange);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+        /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+        width: 25%;
+        height: 50%;
+        margin: auto    ;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0px 15px;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+form{
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.result textarea{
+    resize: none;
+}
+
+
+.heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 75px 100px;
+    font-size: 25px;
+    color: palegoldenrod;
+}
+
+form button{
+    width:50%;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin: 0px 64px;
+    background: antiquewhite;
+    color: black;
+    font-size: 18px;
+    box-shadow: 0 7px 15px rgba(22, 5, 107, 0.3);
+    font-family: 'Times New Roman', Times, serif;
+}
